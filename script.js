@@ -22,7 +22,7 @@ document.querySelectorAll('.circle-progress').forEach(function(el) {
     bgCircle.setAttribute('cx', '55');
     bgCircle.setAttribute('cy', '55');
     bgCircle.setAttribute('r', radius);
-    bgCircle.setAttribute('stroke', '#232a3a');
+    bgCircle.setAttribute('stroke', '#181c28');
     bgCircle.setAttribute('stroke-width', '10');
     bgCircle.setAttribute('fill', 'none');
 
