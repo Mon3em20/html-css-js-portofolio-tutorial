@@ -15,12 +15,20 @@ nav, .nav-links {
 }
 
 nav {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    width: 100%;
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
     height: 100px;
+    background: #182133;
+    box-sizing: border-box;
 }
-
 .nav-links {
     gap: 2rem;
     list-style: none;
@@ -112,6 +120,7 @@ a:hover {
 
 /* Section and Card Styles */
 section {
+
     background: #182133;
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -121,6 +130,7 @@ section {
     max-width: 1450px;
     max-height: 100000px;
     text-align: center;
+    scroll-margin-top: 110px;
 }
 
 .card {
@@ -133,6 +143,8 @@ section {
     font-weight: 700;
     margin-bottom: 1rem;
     letter-spacing: 1px;
+    scroll-margin-top: 110px;
+
 }
 .section-title .blue-accent {
     color: #00bfff;
